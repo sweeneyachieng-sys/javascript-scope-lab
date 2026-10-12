@@ -1,19 +1,21 @@
 // Write your solution in this file!
-let burgers = ["Hamburger","Cheeseburger"];
+const burgers = ["Hamburger","Cheeseburger"];
 let featuredDrink = "Strawberry Milkshake";
 
 function addBurger() {
-    var newBurger = "Flatburger";
-    burgers.push(newBurger);
+    const newBurger = "Flatburger";
+     return burgers.push(newBurger);
 }
 if(true) {
-    let anotherNewBurger = "Maple Bacon Burger";
+    const anotherNewBurger = "Maple Bacon Burger";
     burgers.push(anotherNewBurger);
 }
 
 
 function changeFeaturedDrink() {
     featuredDrink = "The JavaShake";
+    return featuredDrink;
+    
 }
 
 addBurger();
