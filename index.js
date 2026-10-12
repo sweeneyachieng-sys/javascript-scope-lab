@@ -15,12 +15,12 @@ if(true) {
 function changeFeaturedDrink() {
     featuredDrink = "The JavaShake";
     return featuredDrink;
-    
+
 }
 
-addBurger();
-changeFeaturedDrink();
+// addBurger();
+// changeFeaturedDrink();
 
-console.log(burgers);
-console.log(featuredDrink);
+// console.log(burgers);
+// console.log(featuredDrink);
 
